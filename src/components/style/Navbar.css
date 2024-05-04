@@ -1,0 +1,58 @@
+.Navbar_Container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar{
+    display: flex;
+    width: 650px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    animation: ease-in fade_down 1000ms;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin-left: 2%;
+    font-size: larger;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+}   
+
+.links a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.links a:hover{
+    transition: all ease-in-out 300ms;
+    transform: translateY(-10px);
+}
+
+/* Animation */
+@keyframes fade_down {
+    0%{
+        transform: translateY(-100px);
+        transition: all ease-in 500ms;
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
