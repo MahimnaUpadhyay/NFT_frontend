@@ -27,7 +27,7 @@ const HomePage = () => {
               <p>Buy | Rent | Sell | Earn</p>
             </div>
             <div className="Hero_Subtitle">
-              <p>Via the best platform</p>
+              <p>Via The Best Platform</p>
             </div>
             <div className="Hero_Button">
               <button>Explore More</button>
@@ -88,6 +88,9 @@ const HomePage = () => {
               Buy, sell, and trade NFTs with ease, and become part of a
               revolutionary new era of ownership and creative expression.
             </p>
+            <div className="Hero_Button">
+              <button>Read More</button>
+            </div>
           </div>
         </div>
       </div>

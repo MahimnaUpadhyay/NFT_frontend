@@ -61,3 +61,8 @@
     padding: 6px 60px;
     margin-top: 20px;
 }
+
+.Form-contact button:hover{
+    transition: all ease-in-out 300ms;
+    background-color: #5d1288;
+}

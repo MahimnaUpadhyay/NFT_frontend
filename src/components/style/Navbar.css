@@ -13,7 +13,7 @@
     background-color: white;
     color: black;
     border-radius: 100px;
-    animation: ease-in fade_down 1000ms;
+    animation: ease-in-out fade_down 1000ms;
 }
 
 .logo{

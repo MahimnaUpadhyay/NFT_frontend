@@ -27,7 +27,7 @@
 }
 
 .Card-Button button{
-    background-color: #4F0147;
+    background-color: #761ea8;
     color: white;
     border: none;
     border-radius: 50px;
@@ -36,5 +36,5 @@
 
 .Card-Button button:hover{
     transition: all ease 200ms;
-    background-color: #3e0138;
+    background-color: #5d1288;
 }
