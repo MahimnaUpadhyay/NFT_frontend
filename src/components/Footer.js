@@ -18,7 +18,6 @@ const Footer = () => {
                     <p>Home</p>
                     <p>Service</p>
                     <p>About</p>
-                    <p>Contact</p>
                 </div>
                 <div className='Social'>
                    <img src={instagram} alt='Instagram logo' />

@@ -6,7 +6,6 @@ import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import MarketPage from './pages/Market/MarketPage';
 import AboutPage from './pages/About/AboutPage';
-import ContactPage from './pages/Contact/ContactPage';
 import Footer from './components/Footer.js';
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
         <Route path='/' element={<HomePage/>} />
         <Route path='/market' element={<MarketPage/>} />
         <Route path='/about' element={<AboutPage/>} />
-        <Route path='/contact' element={<ContactPage/>} />
       </Routes>
 
       <Footer />

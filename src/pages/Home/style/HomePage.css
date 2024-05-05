@@ -61,15 +61,20 @@
     background-color: #3e0138;
 }
 
-.Card_Container{
+.Card_Container {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 450px;
     justify-content: center;
     align-items: center;
-    background-color: #190327;
+    background-image: url('../../../assets/svg/pattern_2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1000px;
 }
+
 
 .Title p{
     width: 200px;
