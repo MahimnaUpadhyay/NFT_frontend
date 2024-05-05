@@ -1,15 +1,3 @@
-.Page_Title{
-    display: flex;
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-}
-
-.Page_Title p{
-    font-size: 3em;
-}
-
 .Nft_Card_Grid_Container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

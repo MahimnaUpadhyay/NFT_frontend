@@ -1,20 +1,14 @@
 import React from "react";
 import "./style/AboutPage.css";
-import Row_Space from "../../components/Row_Space";
+import Page_Title from "../../components/Page_Title";
 
 const AboutPage = () => {
   return (
     <>
-      {/* ROW SPACE */}
-      <Row_Space />
-
       {/* PAGE TITLE */}
-      <div className="Page_Title">
-        <p>About Us</p>
-      </div>
-
-      {/* ROW SPACE */}
-      <Row_Space />
+      <Page_Title 
+        Page_Title={"Curious About Us?"}
+      />
     </>
   );
 };
