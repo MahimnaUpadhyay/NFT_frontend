@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import "./style/AboutPage.css";
+import Row_Space from "../../components/Row_Space";
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
-  )
-}
+    <>
+      {/* ROW SPACE */}
+      <Row_Space />
 
-export default AboutPage
+      {/* PAGE TITLE */}
+      <div className="Page_Title">
+        <p>About Us</p>
+      </div>
+
+      {/* ROW SPACE */}
+      <Row_Space />
+    </>
+  );
+};
+
+export default AboutPage;

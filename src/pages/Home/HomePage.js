@@ -97,6 +97,7 @@ const HomePage = () => {
         </div>
       </div>
 
+      {/* CONTACT US SECTION */}
       <div className="Contact_Us_Container">
         <Contact_Us_Form />
       </div>
