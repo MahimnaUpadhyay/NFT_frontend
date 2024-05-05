@@ -2,13 +2,12 @@ import React from "react";
 import "./style/HomePage.css";
 import Row_Space from "../../components/Row_Space";
 
-import HeroImage from "../../assets/hero_images/hero_image.png";
 import Card_Component from "../../components/Card_Component";
-
-import nft from "../../assets/nfts/nft (1).png";
-import marketplace from "../../assets/nfts/marketplace.png";
-import painting from "../../assets/nfts/painting.png";
 import Contact_Us_Form from "../../components/Contact_Us_Form";
+
+import bored_ape from '../../assets/nfts/bored_ape.jpg';
+import anime_girl from '../../assets/nfts/anime_girl.png';
+import killjoy from '../../assets/nfts/Killjoy.jpg';
 
 const HomePage = () => {
   return (
@@ -48,20 +47,23 @@ const HomePage = () => {
         <div className="Card_Grid_Container">
           <div className="">
             <Card_Component
-              nft_image={nft}
-              content={"About NFT about a artist, painting a Eth Coin."}
+              nft_image={bored_ape}
+              content={"About NFT about a Bored Ape."}
+              button_content={"Read More"}
             />
           </div>
           <div className="">
             <Card_Component
-              nft_image={marketplace}
-              content={"About NFT about a Lady, shopping for Coins."}
+              nft_image={anime_girl}
+              content={"About NFT about a Anime Girl."}
+              button_content={"Read More"}
             />
           </div>
           <div className="">
             <Card_Component
-              nft_image={painting}
-              content={"About NFT about a Heart Drawing on a Canvas."}
+              nft_image={killjoy}
+              content={"About NFT about a Chibi Killjoy."}
+              button_content={"Read More"}
             />
           </div>
         </div>

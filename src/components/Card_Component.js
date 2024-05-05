@@ -3,7 +3,7 @@ import "./style/Card_Component.css";
 
 
 
-const Card_Component = ({nft_image, content}) => {
+const Card_Component = ({nft_image, content, button_content}) => {
   return (
     <>
       <div className="Card_Bg">
@@ -15,7 +15,7 @@ const Card_Component = ({nft_image, content}) => {
             <p>{content}</p>
           </div>
           <div className="Card-Button">
-            <button>Read More</button>
+            <button>{button_content}</button>
           </div>
         </div>
       </div>
